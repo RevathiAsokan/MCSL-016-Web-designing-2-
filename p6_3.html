@@ -1,0 +1,22 @@
+<html>
+<head><title> Session 6.3</title></head>
+<script language="JavaScript">
+function newpages(cont)
+{
+	var msg="Welcome " + cont;
+	document.write(msg);
+}
+function transfer()
+{
+	form1.name.value="100";
+}
+</script>
+</head>
+<body>
+<form name="form1" method="post" action="">
+<p><input name="name" type="text" value="Victoria"></p>
+<p><input type="submit" name="Submit" value="Enter" onClick="newpages(form1.name.value)">
+  <input type="reset" value="Reset" name="res" onClick="transfer()"></p>
+</form>
+</body>
+</html>

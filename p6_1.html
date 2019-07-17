@@ -1,0 +1,17 @@
+<html>
+<head><title> Session 6.1 </title></head>
+<script language="JavaScript">
+function newpages(cont)
+{
+	var msg="Welcome " + cont;
+	document.write(msg);
+}
+</script>
+</head>
+<body>
+<form name="form1" method="post" action="">
+<p><input name="name" type="text" value="aa"></p>
+<p><input type="submit" name="Submit" value="Enter" onClick="newpages(form1.name.value)"></p>
+</form>
+</body>
+</html>

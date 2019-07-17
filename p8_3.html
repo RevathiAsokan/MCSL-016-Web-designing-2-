@@ -1,0 +1,29 @@
+<html>
+<head><title> Session 8.3 </title>
+<script language="JavaScript">
+function colors(col)
+{
+switch(col)
+{
+	case 'red'	:	document.bgColor="#FF0000";
+					break;
+	case 'blue'	:	document.bgColor="#0000FF";
+					break;
+	case 'green':	document.bgColor="00FF00";
+					break;
+}
+}
+</script>
+</head>
+<body>
+<form name="form1" method="post" action="">
+<p>
+<input type="radio" name="Color1" onClick="colors('red')">Red<br>
+<input type="radio" name="Color2" onClick="colors('green')">Green<br>
+<input type="radio" name="Color3" onClick="colors('blue')">Blue<br>
+</p>
+</form>
+</body>
+</html>
+
+
